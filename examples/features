@@ -1,0 +1,39 @@
+
+build program
+
+namespace
+    the build program will consume all relevant files
+    and you can use a given namespace regardless of
+    the directory you're in  (namespace main can be
+    using main even if you're in namespace x.y.z)
+local
+
+utilities
+    utilities will use the local global idea
+generators
+
+actor
+    each actor can have it's own GC?
+message passing
+    anything in a message is pass by value?
+thread registering?
+
+dynamically typed
+type contract (dynamically check the object type)
+record
+union
+list
+dictionary
+
+interface
+    if message passing is pass by value then interfaces
+    dont have to be ownership based
+
+lambdas
+bit syntax?
+scripting?
+
+foreach
+while
+if
+
