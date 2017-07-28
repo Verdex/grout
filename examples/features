@@ -31,7 +31,10 @@ interface
 
 lambdas
 bit syntax?
-scripting?
+scripting
+    very simple functions that can only call other very simple
+    functions and foreach/while/if and produce data structures
+    the data structures become constructed at compile time
 
 foreach
 while
