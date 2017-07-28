@@ -16,6 +16,7 @@ actor
     each actor can have it's own GC?
 message passing
     anything in a message is pass by value?
+    need a toValue() function that makes a value copy
 thread registering?
 
 dynamically typed
@@ -40,3 +41,4 @@ foreach
 while
 if
 
+FFI

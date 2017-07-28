@@ -1,0 +1,23 @@
+
+namespace Some.Symbol.Name;
+
+using x = namespace.value.other;
+using Symbol.Name_space_1;
+
+-- all lglobs are local
+
+lglob x; -- local global without a type check
+lglob y : int; 
+
+util symbolName1( param : dyn_type, param2 : dyn_type2 ) -> dyn_type3
+{
+    return value;
+}
+
+-- an unchecked local util
+local util LocalUtil( param ) 
+{
+    yield 50;
+}
+
+
